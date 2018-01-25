@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # README
 
 This README would normally document whatever steps are necessary to get the
@@ -22,3 +23,7 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+=======
+# beer-app
+Beer app for React Redux Portfolio Project
+>>>>>>> 09badb75c2a696e9bacd7c29777977318c3b75b8
