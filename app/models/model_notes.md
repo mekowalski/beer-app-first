@@ -9,7 +9,7 @@
 *model would be a search, attribute would be a keyword*
   model SEARCH: query string, STRING
        : type, STRING
-       validate with options of beer type
+       validate with options of type: beer, brewery, guild, event
 
 *multiple kinds of searches*
 -location not included in the GET: /search endpoint
@@ -19,3 +19,6 @@ model with 2 attributes
 -use that save to form api requests
 -have views to look for previous searches and display those results
 -store query string and type
+
+-brewerydb return types are: json, xml and serialized php. i need to spcifiy with return type by passing format parameter in query string of request.
+-if not specified, json is returned, which is okay, i want that
