@@ -20,5 +20,5 @@ model with 2 attributes
 -have views to look for previous searches and display those results
 -store query string and type
 
--brewerydb return types are: json, xml and serialized php. i need to spcifiy with return type by passing format parameter in query string of request.
+-brewerydb return types are: json, xml and serialized php. i need to specify with return type by passing format parameter in query string of request.
 -if not specified, json is returned, which is okay, i want that
