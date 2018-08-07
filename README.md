@@ -1,24 +1,8 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Second attempt at the beer app for final project
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Beer app for users to search for beers by the name, company or beer style.
+I'm inspired by my CLI project to create this in a more 'mature' way
+I also am inspired by where I live, in the small town of roughly 18,000 residents(2016),
+there are 6 breweries and 1 distillery.
