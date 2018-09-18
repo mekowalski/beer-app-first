@@ -1,4 +1,5 @@
 # Puma can serve each request in a thread from an internal thread pool.
+<<<<<<< HEAD
 # The `threads` method setting takes two numbers a minimum and maximum.
 # Any libraries that use thread pools should be configured to match
 # the maximum value specified for Puma. Default is set to 5 threads for minimum
@@ -8,6 +9,17 @@ threads_count = ENV.fetch("RAILS_MAX_THREADS") { 5 }.to_i
 threads threads_count, threads_count
 
 # Specifies the `port` that Puma will listen on to receive requests, default is 3000.
+=======
+# The `threads` method setting takes two numbers: a minimum and maximum.
+# Any libraries that use thread pools should be configured to match
+# the maximum value specified for Puma. Default is set to 5 threads for minimum
+# and maximum; this matches the default thread size of Active Record.
+#
+threads_count = ENV.fetch("RAILS_MAX_THREADS") { 5 }
+threads threads_count, threads_count
+
+# Specifies the `port` that Puma will listen on to receive requests; default is 3000.
+>>>>>>> a1ee1aafa86185f09afceb81132a4c93ef526a85
 #
 port        ENV.fetch("PORT") { 3000 }
 
@@ -26,6 +38,7 @@ environment ENV.fetch("RAILS_ENV") { "development" }
 # Use the `preload_app!` method when specifying a `workers` number.
 # This directive tells Puma to first boot the application and load code
 # before forking the application. This takes advantage of Copy On Write
+<<<<<<< HEAD
 # process behavior so workers use less memory. If you use this option
 # you need to make sure to reconnect any threads in the `on_worker_boot`
 # block.
@@ -43,5 +56,11 @@ environment ENV.fetch("RAILS_ENV") { "development" }
 #   ActiveRecord::Base.establish_connection if defined?(ActiveRecord)
 # end
 
+=======
+# process behavior so workers use less memory.
+#
+# preload_app!
+
+>>>>>>> a1ee1aafa86185f09afceb81132a4c93ef526a85
 # Allow puma to be restarted by `rails restart` command.
 plugin :tmp_restart

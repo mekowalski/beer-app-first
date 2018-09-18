@@ -5,6 +5,7 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+<<<<<<< HEAD
 
 
 # use this for dummy data
@@ -24,3 +25,5 @@
 # Faker::Beer.alcohol #=> "6.3%"
 
 # Faker::Beer.blg #=> "18.5°Blg"
+=======
+>>>>>>> a1ee1aafa86185f09afceb81132a4c93ef526a85
