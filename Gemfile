@@ -17,7 +17,7 @@ gem 'rails', '~> 5.0.6'
 gem 'sqlite3'
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
-=======
+# =======
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.3.3'
