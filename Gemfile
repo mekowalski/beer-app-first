@@ -18,9 +18,9 @@ gem 'sqlite3'
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
 # =======
-git_source(:github) { |repo| "https://github.com/#{repo}.git" }
-
-ruby '2.3.3'
+# git_source(:github) { |repo| "https://github.com/#{repo}.git" }
+#
+# ruby '2.3.3'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.0'
@@ -28,12 +28,12 @@ gem 'rails', '~> 5.2.0'
 gem 'sqlite3'
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
->>>>>>> a1ee1aafa86185f09afceb81132a4c93ef526a85
+# >>>>>>> a1ee1aafa86185f09afceb81132a4c93ef526a85
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
-<<<<<<< HEAD
+# <<<<<<< HEAD
 # Use CoffeeScript for .coffee assets and views
 # gem 'coffee-rails', '~> 4.2'
 # See https://github.com/rails/execjs#readme for more supported runtimes
@@ -66,7 +66,8 @@ group :development do
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
   gem 'pry'
-=======
+end
+# =======
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'mini_racer', platforms: :ruby
 
@@ -110,7 +111,7 @@ group :test do
   gem 'selenium-webdriver'
   # Easy installation and use of chromedriver to run system tests with Chrome
   gem 'chromedriver-helper'
->>>>>>> a1ee1aafa86185f09afceb81132a4c93ef526a85
+# >>>>>>> a1ee1aafa86185f09afceb81132a4c93ef526a85
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
