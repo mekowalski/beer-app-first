@@ -1,7 +1,6 @@
-<<<<<<< HEAD
 # beer-app
 Beer app for React Redux Portfolio Project
-=======
+
 # README
 
 ## Second attempt at the beer app for final project
@@ -28,4 +27,6 @@ Company also has many BeerStyles through Beers / EG: Steamworks Brewery(Company)
 
 
 BeerStyle has many beers / EG: Ale(BeerStyle) has(many) Third Eye PA, Ale Sabor, Rock Hopped Pale Ale(Beers)
->>>>>>> a1ee1aafa86185f09afceb81132a4c93ef526a85
+
+Will not use this version
+I created a new version for beer app final project
